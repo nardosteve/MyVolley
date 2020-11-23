@@ -53,11 +53,10 @@
             android:layout_height="wrap_content"
             android:textColor="?android:textColorSecondary"
             android:textStyle="italic"
-
+            android:drawableStart="@drawable/ic_url_link"
             android:text="http://url.com"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="30dp" />
 
-            />
         <ImageButton
             android:id="@+id/shareProfile"
             android:layout_width="120dp"
@@ -65,7 +64,7 @@
             android:layout_marginTop="40dp"
             android:background="#10C8CD"
             android:layout_centerInParent="true"
-             />
+             android:src="@drawable/ic_send"/>
 
     </RelativeLayout>
 </LinearLayout>
